@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <Fragment>
       <Container>
-        <section className="flex flex-col col-span-9 text-left h-screen justify-center lg:col-span-4 lg:col-start-2">
+        <section className="flex flex-col col-span-9 text-left h-screen justify-center lg:col-span-4 lg:col-start-2 -pb-7">
           <div className="flex flex-col lg:flex-row mb-2">
             <h1 className="text-4xl font-medium pr-2">Hi, I&apos;m</h1>
             <h1 className="text-4xl font-extrabold">Tyler Callison</h1>
