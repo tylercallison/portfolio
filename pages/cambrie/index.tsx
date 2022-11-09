@@ -7,7 +7,7 @@ const Cambrie = () => {
   return (
     <Fragment>
       <Container>
-        <section className="flex flex-row col-span-12 text-center h-screen justify-center items-center">
+        <section className="flex md:flex-row flex-col col-span-12 text-center h-screen justify-center items-center">
           <h2 className="text-6xl md:text-8xl font-extrabold bg-clip-text text-black py-2 mr-4">
             Hey
           </h2>
