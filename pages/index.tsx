@@ -10,7 +10,7 @@ const Home = () => {
       <Container>
         <section className="flex flex-col col-span-12 text-center h-screen justify-center items-center">
           <h1 className="text-6xl md:text-8xl font-extrabold bg-clip-text text-transparent py-2">
-            Coming Soon.
+            Coming Soon
           </h1>
           <Social />
         </section>
