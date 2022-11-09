@@ -6,7 +6,8 @@ const nextConfig = {
             allowFutureImage: true 
         } 
     },
-    reactStrictMode: true
+    reactStrictMode: true,
+    assetPrefix: './',
 }
 
 module.exports = nextConfig
