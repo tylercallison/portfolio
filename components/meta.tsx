@@ -17,7 +17,7 @@ const Meta = ({ title, description, robots, keywords }: MetaProps) => {
 
   return (
     <Head>
-      <title>{title}</title>
+      <title>{`${title} | Tyler Callison`}</title>
       <meta
         key="robots"
         name="robots"
