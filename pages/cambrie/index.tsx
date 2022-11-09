@@ -24,7 +24,7 @@ Cambrie.getLayout = function getLayout(page: ReactElement) {
   return (
     <Layout>
       <Meta
-        title="Home"
+        title="Cambrito"
         description="Tyler Callison - UI Engineer"
         robots={true}
         keywords="tyler, callison, software, website, web, developer, ui, engineer, home, san, diego, state, university, greek, suite, greeksuite"
