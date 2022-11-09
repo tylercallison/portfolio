@@ -2,9 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
+.gradient {
     font-size: 72px;
     background: linear-gradient(87deg, #11cdef, #1171ef, #ef11a5, #ef8711);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+
+.cambrie {
+    font-size: 72px;
+    background: linear-gradient(87deg, #1171ef, #ef11a5, #ef8711);
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
