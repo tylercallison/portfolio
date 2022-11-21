@@ -29,7 +29,7 @@ const Meta = ({ title, description, robots, keywords }: MetaProps) => {
         key="viewport"
         name="viewport"
         property="viewport"
-        content="initial-scale=1.0, width-device-width"
+        content="initial-scale=1.0, width=device-width"
       />
       <meta
         key="description"
