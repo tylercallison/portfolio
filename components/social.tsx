@@ -1,27 +1,28 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Social = () => {
   return (
     <div className="w-20 mt-6">
       <div className="grid grid-cols-2 items-center gap-6">
-        <a href="https://www.linkedin.com/in/tyler-callison/">
+        <Link href="https://www.linkedin.com/in/tyler-callison/">
           <Image
             src="/logos/linkedin.svg"
             alt="Linkedin"
-            width={25}
-            height={25}
+            width={30}
+            height={30}
             className="w-full"
           />
-        </a>
-        <a href="https://github.com/tylercallison">
+        </Link>
+        <Link href="https://github.com/tylercallison">
           <Image
             src="/logos/github.svg"
             alt="Github"
-            width={25}
-            height={25}
+            width={30}
+            height={30}
             className="w-full"
           />
-        </a>
+        </Link>
       </div>
     </div>
   );
