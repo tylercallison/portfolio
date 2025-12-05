@@ -1,20 +1,16 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  experimental: {
-    images: {
-      allowFutureImage: true,
-    },
-  },
+  output: 'export',
   reactStrictMode: true,
   async headers() {
     return [
       {
-        source: "/",
+        source: '/',
         headers: [
           {
-            key: "Content-Type",
-            value: "text/html; charset=UTF-8",
+            key: 'Content-Type',
+            value: 'text/html; charset=UTF-8',
           },
         ],
       },
